@@ -1,23 +1,9 @@
 /**
  * Created by vojtechdlapal on 2019-06-10.
+ * tests are not really comprehensive as the purpose of the trigger is not clear to me after all...
  */
 @IsTest
 public with sharing class CountryHelper_Test {
-
-    testMethod private static void testDebugIt_OnInsert(){
-        Country__c newCountry = new Country__c();
-        newCountry.Name = 'Narnia';
-        newCountry.Alpha3Code__c = 'NNN';
-        newCountry.Alpha2Code__c = 'NN';
-
-        Test.startTest();
-        insert newCountry;
-        Test.stopTest();
-
-        List<Country__c> retrievedCountries = [SELECT Name FROM Country__c];
-        System.assertEquals('Narnia', retrievedCountries[0].Name, 'Narnia should be created');
-    }
-
 
     //todo: bulk test...
 
