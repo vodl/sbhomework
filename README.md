@@ -1,3 +1,4 @@
 # sbhomework
-username: sadlomasloskvarky+bakerstreet@gmail.com	
-pwd: SherlockBaker1
+#devorg
+#username: sadlomasloskvarky+bakerstreet@gmail.com
+#pwd: SherlockBaker1
